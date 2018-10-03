@@ -12,7 +12,7 @@ const time = Array(30)
             .subtract(30 - index, 'day')
             .unix()
     );
-const invoiceTypes = ['pending', 'delivered', 'clearDue'];
+const invoiceTypes = ['type1', 'type2', 'type3'];
 
 export const transactions = Array(30)
     .fill(0)

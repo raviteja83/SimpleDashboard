@@ -9,9 +9,9 @@ class InvoiceChart extends Component {
         return (
             <BarChart width={width} height={400} data={data}>
                 <CartesianGrid strokeDasharray="3 3" />
-                <Bar fill="#8884d8" dataKey="pending" />
-                <Bar fill="#868438" dataKey="delivered" />
-                <Bar fill="#82ca9d" dataKey="clearDue" />
+                <Bar fill="#8884d8" dataKey="type1" />
+                <Bar fill="#868438" dataKey="type2" />
+                <Bar fill="#82ca9d" dataKey="type3" />
                 <XAxis dataKey="time" tickFormatter={timeTickFormatter} />
                 <YAxis
                     label={{
