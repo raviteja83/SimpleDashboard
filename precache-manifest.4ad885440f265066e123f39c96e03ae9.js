@@ -4,15 +4,15 @@ self.__precacheManifest = [
     "url": "/SimpleDashboard/static/js/runtime~main.9e777086.js"
   },
   {
-    "revision": "c7e330a606510fd69e1f",
-    "url": "/SimpleDashboard/static/js/main.c7e330a6.chunk.js"
+    "revision": "2ef4ed92d7ab2f4908fa",
+    "url": "/SimpleDashboard/static/js/main.2ef4ed92.chunk.js"
   },
   {
     "revision": "e9e6caa097b1c14ca249",
     "url": "/SimpleDashboard/static/js/1.e9e6caa0.chunk.js"
   },
   {
-    "revision": "c7e330a606510fd69e1f",
+    "revision": "2ef4ed92d7ab2f4908fa",
     "url": "/SimpleDashboard/static/css/main.cfd14b89.chunk.css"
   },
   {
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/SimpleDashboard/static/css/1.b8e89af2.chunk.css"
   },
   {
-    "revision": "df37570075a66aaa090875ea83a30981",
+    "revision": "e05272f980f18d411c4ecf4123a742ed",
     "url": "/SimpleDashboard/index.html"
   }
 ];
