@@ -4,7 +4,8 @@ import moment from 'moment';
 const counts = [10, 20, 25, 30, 35, 40, 45, 60, 80, 100, 200, 300];
 const values = [10000, 15000, 20000, 50000, 100000, 200000, 500000];
 const companies = ['a', 'b', 'c', 'd', 'e'];
-const products = ['p1', 'p2', 'p3'];
+export const products = ['p1', 'p2', 'p3'];
+export const invoiceTypes = ['type1', 'type2', 'type3'];
 const time = Array(30)
     .fill(0)
     .map((_, index) =>
@@ -12,7 +13,6 @@ const time = Array(30)
             .subtract(30 - index, 'day')
             .unix()
     );
-const invoiceTypes = ['type1', 'type2', 'type3'];
 
 export const transactions = Array(30)
     .fill(0)

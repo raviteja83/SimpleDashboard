@@ -1,64 +1,89 @@
 body {
-  min-width: 1280px;
+    min-width: 1280px;
 }
 
 .filters {
-  display: flex;
-  padding: 10px 20px;
-  margin: 0 10px 20px;
-  border-bottom: 1px solid #ccc;
+    display: flex;
+    padding: 10px 20px;
+    margin: 0 10px 20px;
+    border-bottom: 1px solid #ccc;
 }
 
 .filters .Select {
-  flex: 0 0 250px;
-  margin-right: 10px;
+    flex: 0 0 250px;
+    margin-right: 10px;
 }
 
 .filters .date-select {
-  margin-left: 30px;
+    margin-left: 30px;
 }
 
 .container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding: 10px 20px;
-  grid-gap: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px 20px;
+    grid-gap: 20px;
 }
 
 .card {
-  padding: 10px;
-  background: white;
-  box-shadow: 0 1px 4px 0 rgba(0,0,0,0.14);
+    padding: 10px;
+    background: white;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
 }
 
 .card h3 {
-  text-align: center;
+    text-align: center;
 }
 
 .sidebar-icon {
-  margin: 15px 0 0 20px;
+    margin: 15px 0 0 20px;
 }
 
 .sidebar-header {
-  padding: 14px 12px;
-  margin: 0 0 20px 0;
-  border-bottom: 1px solid rgba(0,0,0,0.1);
+    padding: 14px 12px;
+    margin: 0 0 20px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 .sidebar-item {
-  cursor: pointer;
-  padding: 6px 12px;
+    cursor: pointer;
+    padding: 6px 12px;
 }
 
 .sidebar-item:hover {
-  background: #f2f2f2;
+    background: #f2f2f2;
 }
 
 .empty {
-  height: 400px;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px dashed rgba(0,0,0,0.3);
-  font-weight: 700;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px dashed rgba(0, 0, 0, 0.3);
+    font-weight: 700;
+}
+
+.overview {
+    display: flex;
+    justify-content: center;
+    margin: 40px auto 40px;
+    width: 600px;
+}
+
+.overview-title {
+  font-size: 1em;
+  text-align: center;
+  white-space: nowrap;
+  margin-top: 5px;
+}
+
+.overview-piece {
+  margin: 0 20px;
+}
+
+.overview-empty {
+  width: 85px;
+  height: 85px;
+  border: 10px dashed rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
 }

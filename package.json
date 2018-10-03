@@ -9,6 +9,7 @@
     "moment": "^2.22.2",
     "numeral": "^2.0.6",
     "react": "^16.5.2",
+    "react-circular-progressbar": "^1.0.0",
     "react-dom": "^16.5.2",
     "react-scripts": "2.0.3",
     "react-select": "1.2.1",
@@ -21,7 +22,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy":  "gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
